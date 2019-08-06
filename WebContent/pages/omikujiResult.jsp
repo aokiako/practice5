@@ -18,7 +18,7 @@
 		<h2>
 			<span class="line">‚¨‚İ‚­‚¶Œ‹‰Ê</span>
 		</h2>
-		<p>¡“ú‚Ì‰^¨‚Í${omikuji.unseiNm}‚Å‚·I</p>
+		<p>¡“ú‚Ì‰^¨‚Í<div class="moji">${omikuji.unseiNm}</div>
 		<h3>${omikuji.unseiNm}</h3>
 		<table class="paper">
 
