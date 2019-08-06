@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("../image/omikuji.washi.jpeg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.omikuji {
+	flex: 1;
+	height: 900px;
+	text-align: center;
+	margin: 0 auto;
+	border: double 3px #FFCC00; /*線*/
+	border-radius: 10px; /*角の丸み*/
+	width: 800;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Hiragino Mincho Pro';
+	font-weight: bold;
+	color: #CC0000;
+	-webkit-text-stroke: 0.5px #FFF;
+	text-stroke: #FFF;
+}
+
+h2 {
+	color: #550000;
+	　font-family: "ヒラギノ角ゴProN";
+}
+
+.line {
+	background: linear-gradient(transparent 50%, #b9c37c 50%);
+}
+
+}
+p {
+	color: #701d12;
+	font-family: "ヒラギノ角ゴProN";
+}
+
+h3{
+	border: double 3px #996600;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	background: #F8F8FF;
+	width: 94;
+	height: 50;
+	font-family: 'Hiragino Mincho Pro';
+	font-weight: bold;
+	font-size: 35px;
+	color: #440000;
+	text-shadow: 3px 3px 0 #FFCC66;
+}
+
+.paper {
+	border: double 3px #996600;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	background: #F8F8FF;
+	width: 100;
+	height: 450;
+	font-family: 'Hiragino Mincho Pro';
+}
+
+.paper th {
+	background: #CC0000;
+	color: #FFFFF0;
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 30%;
+}
+
+.paper td {
+	color: #550000;
+	border-collapse: collapse;
+	height: 300px;
+	-webkit-writing-mode: vertical-rl;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+}
+
+table {
+	border: solid 2px #996600;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	text-align: center;
+	background: #f7f6ed
+}
+
+table th {
+	background: #9a4734;
+	color: #FFFFF0;
+	border-collapse: collapse;
+}
+
+table td {
+	color: #550000;
+	border-collapse: collapse;
+}
+
+input {
+	display: inline-block;
+	padding: 0.3em 1em;
+	text-decoration: none;
+	color: #550000;
+	border: solid 1px #947d7d;
+	border-radius: 3px;
+	transition: .4s;
+	background: #f9f5e9
+}
